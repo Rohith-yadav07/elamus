@@ -35,17 +35,95 @@ ul{
     justify-content: space-between;
     margin-top: -50px;
 }
-.not img{
+.ton img{
     width: 100%;
+}
+.ots img{
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+}
+.tos h1{
+    margin-left: 660px;
+    margin-top: -400px;
+    color: orange;
+
+}
+.mat p{
+    font-size: 20px;
+    margin-left: 660px;
+    margin-top: 60px;
+}
+.but button{
+    margin-left: 660px;
+    margin-bottom: 100px;
+    background-color: red;
+    size: 20px;
+}
+.row{
+    display: flex;
+    padding: 0 2px;
+    background-color: rgb(223, 111, 7);
+    width:100%;
     height: 600px;
 }
-.tat h1{
-    font-size: 60px;
-    font-weight: bold;
-    margin-top: -450px;
-    margin-left: 100px;
-    color: rgb(12, 12, 12);
+.column{
+    flex: 25%;
+    width: 10px;
+    height: 10px;
+    size: 40px;
+    margin-top: 120px;
 }
-footer{
-    margin-bottom: 400px;
+.column img{
+    width: 380px;
+    height: 300px;
+    max-width: 200px;
+    margin-left: 60px;
+}
+.column p{
+    padding-left: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color:rosybrown;
+    margin-top: 120px;
+}
+.form{
+    width: 50%;
+    height: 400px;
+    background-color:rgb(250, 101, 200);
+    margin-left: 80px;
+
+}
+.form p{
+    font-size: 20px;
+}
+.form h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.userbox label{
+    size: 30%;
+}
+.loc{
+    background-color: wheat;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    margin-left: 700px;
+    margin-top: -135px;
+}
+.info h1{
+    padding-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.info p{
+    padding-left: 80px;
+    padding-top: 40px;
 }
